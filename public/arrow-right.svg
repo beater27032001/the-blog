@@ -1,0 +1,25 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#1E1E1E"/>
+<g id="&#240;&#159;&#146;&#187;">
+<path d="M-432 -780C-432 -807.614 -409.614 -830 -382 -830H1361C1388.61 -830 1411 -807.614 1411 -780V1454C1411 1481.61 1388.61 1504 1361 1504H-382C-409.614 1504 -432 1481.61 -432 1454V-780Z" fill="#242424"/>
+<g id="desktop" clip-path="url(#clip0_3_2)">
+<rect width="1440" height="1788" transform="translate(-223 -458)" fill="white"/>
+<g id="home">
+<path id="bg" d="M-223 -458H497.5H1218V129H-223V-458Z" fill="#290742"/>
+<g id="text-group">
+<g id="Group 19">
+<g id="arrow-right">
+<path id="Vector" d="M5 12H19" stroke="#4FFF4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12 5L19 12L12 19" stroke="#4FFF4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3_2">
+<rect width="1440" height="1788" fill="white" transform="translate(-223 -458)"/>
+</clipPath>
+</defs>
+</svg>
