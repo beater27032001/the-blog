@@ -6,6 +6,7 @@ import Link from "next/link";
 import retangulo from "/public/rectangle.svg";
 import dynamic from "next/dynamic";
 import { useState } from "react";
+import { FaBars } from "react-icons/fa";
 
 // Importação dinâmica do componente MotionDiv para animações
 const MotionDiv = dynamic(() => import("./animation/MotionDiv"), {
@@ -77,16 +78,15 @@ export default function Header() {
           </div>
 
           {/* Menu hambúrguer para telas menores */}
-          <div className="desktop:hidden flex items-center relative">
-              <button
-                type="button"
-                onClick={() => setMenuOpen(!menuOpen)}
-                className="flex items-center text-white-text"
-              >
-                <span className="mr-2">Menu</span>
-                <Image src={search} alt="menu" width={24} height={24} />
-              </button>
-            
+          <div className="desktop:hidden flex items-center justify-center relative">
+            <button
+              type="button"
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="flex items-center text-white-text"
+            >
+              <span className="mr-2">Menu</span>
+              <FaBars size={20} />
+            </button>
 
             {/* Menu dropdown */}
             {menuOpen && (
@@ -94,8 +94,8 @@ export default function Header() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
-                className="absolute mt-4 w-48 bg-purple-700 rounded-md shadow-lg z-50"
-                style={{ top: '100%' }} 
+                className="absolute  mt-4 w-48 bg-purple-700 rounded-md shadow-lg z-50"
+                style={{ top: "100%" }}
               >
                 {menuItems.map((link) => (
                   <div key={link.Key} className="flex gap-1 py-2 px-4">
