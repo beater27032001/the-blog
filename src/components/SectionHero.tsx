@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import arrow from "/public/arrow-right.svg";
 import imagem from "/public/featured-image.svg";
-
 import dynamic from "next/dynamic";
 
+// Importação dinâmica do componente MotionDiv para animações
 const MotionDiv = dynamic(() => import("./animation/MotionDiv"), {
   ssr: false,
 });
@@ -18,9 +18,11 @@ export default function SectionHero() {
         whileInView={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: -100 }}
         transition={{ duration: 0.5 }}
-        className="flex pb-16 items-center justify-between w-full"
+        className="flex cel:flex-col-reverse gap-8 desktop:flex-row pb-16 items-center justify-between w-full"
       >
-        <div className="flex flex-col gap-4 w-1/2">
+        
+        {/* Texto Principal da Section */}
+        <div className="flex flex-col gap-4 desktop:w-1/2">
           <h1 className="text-4xl font-bold text-purple-text">
             Veja o guia definitivo para conquistar seus objetivos como DEV em
             2022
@@ -38,6 +40,8 @@ export default function SectionHero() {
             <Image src={arrow} alt="flecha" width={24} height={24}></Image>
           </Link>
         </div>
+
+        {/* Imagem */}
         <div>
           <Image
             layout="responsive"

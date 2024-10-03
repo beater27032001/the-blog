@@ -17,6 +17,11 @@ const config: Config = {
         "purple-input": "#170027",
         "purple-search": "#F2E7FA",
       },
+      screens: {
+        cel: "320px",
+        mobile: "768px",
+        desktop: "1096px",
+      },
     },
   },
   plugins: [],
