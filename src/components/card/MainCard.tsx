@@ -23,7 +23,7 @@ export default function MainCard() {
             date="Janeiro 04, 2022"
             paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. Sed volutpat aenean."
           />
-          {/* Linha devisória visível apenas em telas menores */}
+          {/* Linha divisória visível apenas em telas menores */}
           <div className=" h-0.5 bg-purple-search desktop:hidden"></div>
         </div>
 
@@ -37,7 +37,7 @@ export default function MainCard() {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique."
             }
           />
-          {/* Linha devisória */}
+          {/* Linha divisória */}
           <div className="h-0.5 bg-purple-search"></div>
           <Card
             title={"Veja a evolução do Front-end na prática"}
@@ -46,7 +46,7 @@ export default function MainCard() {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. "
             }
           />
-          {/* Linha devisória visível apenas em telas menores */}
+          {/* Linha divisória visível apenas em telas menores */}
           <div className=" h-0.5 bg-purple-search desktop:hidden"></div>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function MainCard() {
           date="Janeiro 04, 2022"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. "
         />
-        {/* Linha devisória visível apenas em telas menores */}
+        {/* Linha divisória visível apenas em telas menores */}
         <div className=" h-0.5 bg-purple-search desktop:hidden"></div>
         <Card
           img={imagem3}
@@ -73,7 +73,7 @@ export default function MainCard() {
           date="Janeiro 04, 2022"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. "
         />
-        {/* Linha devisória visível apenas em telas menores */}
+        {/* Linha divisória visível apenas em telas menores */}
         <div className=" h-0.5 bg-purple-search desktop:hidden"></div>
         <Card
           img={imagem4}
